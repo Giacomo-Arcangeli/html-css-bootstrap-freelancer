@@ -1,0 +1,25 @@
+/* BACKGROUND COLOR */
+.grey{
+    background-color: rgb(59,84,109);
+}
+.green{
+background-color: rgb(26,188,156);
+}
+.dark-grey{
+    background-color: rgb(44,63,80);
+}
+
+/* TODO REMOVE */
+.section-h{
+    min-height: 200px;
+}
+
+.bor{
+    border: 2px solid blue;
+}
+.bor-b{
+    border: 2px solid red;
+}
+.bor-c{
+    border: 2px dashed black
+}
