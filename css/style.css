@@ -1,3 +1,16 @@
+/* UTILS */
+.fa-star{
+    font-size: 30px;
+}
+
+.line{
+    background-color: white;
+    border-radius: 25px;
+    width: 100px;
+    height: 5px;
+    margin: 0 15px;
+}
+
 /* BACKGROUND COLOR */
 .grey{
     background-color: rgb(59,84,109);
@@ -9,17 +22,60 @@ background-color: rgb(26,188,156);
     background-color: rgb(44,63,80);
 }
 
-/* TODO REMOVE */
-.section-h{
-    min-height: 200px;
+/* header */
+header .row{
+    min-height: 80px;
 }
 
-.bor{
-    border: 2px solid blue;
+/* start section */
+.start img{
+    max-width: 250px;
 }
-.bor-b{
-    border: 2px solid red;
+
+/* about */
+.green button{
+    background-color: rgb(26,188,156);
+    border: 1px solid white;
 }
-.bor-c{
-    border: 2px dashed black
+
+.green .btn:hover{
+    background-color:  rgb(26,188,156);
+    border: 1px solid white;
 }
+
+/* footer */
+.circle{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* FORM */
+.contact textarea{
+    width: 100%;
+    height: 200px;
+}
+.contact .form-control{
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+.contact ::placeholder{
+    color: black;
+}
+.contact .form-control:focus{
+    box-shadow: none;
+    border-color: lightgray;
+}
+
+.contact button{
+    background-color: rgb(26,188,156);
+    border: 1px solid white;
+    color: white;
+}
+.contact .btn:hover{
+    background-color:  rgb(26,188,156);
+    border: 1px solid white;
+    color: white;
+}
+
+
